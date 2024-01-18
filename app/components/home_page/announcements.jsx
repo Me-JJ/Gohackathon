@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import hackathon from "../../public/hackathon.jpeg";
-import { PurpleToPink } from "../utils/button";
+import hackathon from "../../../public/hackathon.jpeg";
+import { PurpleToPink } from "../../utils/button";
 
 export default function Announcements() {
   return (

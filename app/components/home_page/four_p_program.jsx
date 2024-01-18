@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../public/homeHeroImage.jpeg";
+import heroImg from "../../../public/homeHeroImage.jpeg";
 import Image from "next/image";
 export default function Four_p_program() {
   return (

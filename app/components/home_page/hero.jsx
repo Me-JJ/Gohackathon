@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import heroImg from "../../public/homeHeroImage.jpeg";
-import { PurpleToPink } from "../utils/button";
+import heroImg from "../../../public/homeHeroImage.jpeg";
+import { PurpleToPink } from "../../utils/button";
 export default function Hero() {
   return (
     <div className="bg-gradient-to-br from-blue-200 to-green-300 border border-black rounded-xl flex justify-between p-10 my-5 items-center">
