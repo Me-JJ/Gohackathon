@@ -1,12 +1,19 @@
+import Image from "next/image";
 import React from "react";
-
+import img from "../../../public/training.png";
 export default function Training() {
   return (
-    <div className="me-2 p-2 border border-black bg-gradient-to-br from-blue-200 to-green-300 w-1/2 mt-5">
-      <div className="text-center">
-        <h1 className="text-xl w-3/4 m-auto">Training</h1>
-        <div className="w-3/4 h-3/4 p-5 mx-auto border border-black">Image</div>
-      </div>
+    <div
+      className="me-2 p-2 rounded-[30px] bg-gradient-to-br from-cyan-200 to-lime-100 w-1/2 mt-5
+    flex flex-col items-center"
+    >
+      <h1 className="text-2xl font-medium ">Training</h1>
+      <Image
+        src={img}
+        style={{ width: "400px", height: "auto" }}
+        alt="Training"
+        priority={false}
+      />
     </div>
   );
 }

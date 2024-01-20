@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarWithMegaMenu as Navbar } from "../components/home_page/navbar";
+
 import Hero from "../components/home_page/hero";
 import Announcements from "../components/home_page/announcements";
 import Popularskills from "../components/home_page/popularskills";
@@ -11,6 +11,7 @@ import Webinar from "../components/home_page/webinar";
 import Training from "../components/home_page/training";
 import Jobs from "../components/home_page/jobs";
 import About from "../components/home_page/about";
+import { NavbarWithMegaMenu as Navbar } from "../components/home_page/navbar";
 import Footer from "../components/home_page/footer";
 export default function Home() {
   return (

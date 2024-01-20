@@ -1,13 +1,26 @@
+import Image from "next/image";
 import React from "react";
-
+import img from "../../../public/gohackathon.jpeg";
 export default function About() {
   return (
-    <div className="p-2 border border-black bg-gradient-to-br from-blue-200 to-green-300 mt-5 ">
+    <div className="p-2 rounded-[30px] bg-gradient-to-br from-cyan-100 to-lime-100 mt-5 ">
       <div className="flex justify-around">
-        <div>CODE FOR CHANGE [image]</div>
+        <div className="rounded-full">
+          <Image
+            src={img}
+            priority={false}
+            alt="gohackathon"
+            style={{
+              width: "300px",
+              height: "auto",
+              borderRadius: "100%",
+              padding: "3px",
+            }}
+          />
+        </div>
         <div className="flex flex-col items-center w-1/2">
-          <div>About GoHackathon</div>
-          <div>
+          <div className="text-2xl font-semibold ">About GoHackathon</div>
+          <div className="font-light text-balance mt-2">
             Hackathon comprises of eminent Industry professionals, educators and
             students meant to nurture talent among budding tech professional.
             Industry today is looking for talented students who are equipped and
