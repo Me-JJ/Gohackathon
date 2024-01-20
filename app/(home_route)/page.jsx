@@ -18,13 +18,13 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <div className="flex justify-between">
+      <div className="flex justify-around">
         <Announcements />
         <Popularskills />
       </div>
       <Four_p_program />
       <Empower />
-      <div className="flex justify-between">
+      <div className="flex justify-evenly">
         <Examine />
         <Coder />
       </div>

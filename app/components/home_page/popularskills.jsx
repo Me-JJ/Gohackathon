@@ -5,7 +5,10 @@ import src from "../../../public/cloud_popular_skill.jpeg";
 
 export default function Popularskills() {
   return (
-    <div className="py-3 px-5 rounded-[30px] bg-gradient-to-tr from-lime-100 via-cyan-200 to-light-green-100  w-1/2 ms-2">
+    <div
+      className="py-3 px-5 rounded-[30px] bg-gradient-to-tr from-lime-100 to-cyan-100
+      ms-2"
+    >
       <div className="text-center">
         <div className="flex justify-center items-center">
           <h1 className="text-3xl text-center font-medium">Popular Skills</h1>
@@ -26,8 +29,8 @@ export default function Popularskills() {
           Learn, Practice and Test your skills with out courses{" "}
         </p>
       </div>
-      <div className="grid grid-row-6 grid-cols-3 gap-4">
-        <div className="col-span-2 row-span-2 ">
+      <div className="grid grid-row-6 grid-cols-3 gap-2 justify-items-center items-center">
+        <div className=" row-span-2">
           <Image
             src={src}
             priority={false}
@@ -35,11 +38,36 @@ export default function Popularskills() {
             style={{ width: "200px", height: "auto", borderRadius: "30px" }}
           ></Image>
         </div>
-        <div className="col-start-2 col-span-2 row-span-2 border border-black p-10">
-          Web Development
+        <div className="col-start-2 col-span-2 row-span-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          provident explicabo, praesentium quos cum dicta et minima numquam
+          molestias ?
         </div>
-        <div className="col-span-2 row-span-2 border border-black p-10">
-          Open Source
+        <div className="col-start-3  row-span-2">
+          <Image
+            src={src}
+            priority={false}
+            alt="cloud computing"
+            style={{ width: "200px", height: "auto", borderRadius: "30px" }}
+          ></Image>
+        </div>
+        <div className="col-start-1 col-span-2 row-start-3 row-span-2 text-right">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          provident explicabo, praesentium quos cum dicta et provident
+          explicabo, praesentium quos cum dicta et minima numquam ?
+        </div>
+        <div className="col-start-1 row-span-2 ">
+          <Image
+            src={src}
+            priority={false}
+            alt="cloud computing"
+            style={{ width: "200px", height: "auto", borderRadius: "30px" }}
+          ></Image>
+        </div>
+        <div className="col-start-2 col-span-2 row-start-5 row-span-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+          provident explicabo, praesentium quos cum dicta et minima numquam
+          molestias ?
         </div>
       </div>
     </div>
