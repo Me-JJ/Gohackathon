@@ -8,12 +8,15 @@ export default function Webinar() {
       className="rounded-[30px] p-3 mt-5 bg-gradient-to-tr from-cyan-100 to-lime-100 
       flex justify-evenly items-center"
     >
-      <Image
-        src={webinar}
-        priority={false}
-        alt="webinar"
-        style={{ width: "400px", height: "auto" }}
-      />
+      <div className="flex flex-col items-center justify-around">
+        <p className="font-medium text-2xl ">Webinars</p>
+        <Image
+          src={webinar}
+          priority={false}
+          alt="webinar"
+          style={{ width: "400px", height: "auto" }}
+        />
+      </div>
       <div className="flex flex-col items-center">
         <div className="w-[400px] text-center font-medium text-xl">
           Follow up our regular webinars and get insights of industry related

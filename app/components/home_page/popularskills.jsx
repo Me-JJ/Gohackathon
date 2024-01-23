@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 
 import src from "../../../public/cloud_popular_skill.jpeg";
+import webdev from "../../../public/webdevskill.png";
+import android from "../../../public/android.png";
 
 export default function Popularskills() {
   return (
@@ -29,7 +31,7 @@ export default function Popularskills() {
           Learn, Practice and Test your skills with out courses{" "}
         </p>
       </div>
-      <div className="grid grid-row-6 grid-cols-3 gap-2 justify-items-center items-center">
+      <div className="grid grid-row-6 grid-cols-3 gap-2 justify-items-center items-center text-justify">
         <div className=" row-span-2">
           <Image
             src={src}
@@ -39,35 +41,47 @@ export default function Popularskills() {
           ></Image>
         </div>
         <div className="col-start-2 col-span-2 row-span-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          provident explicabo, praesentium quos cum dicta et minima numquam
-          molestias ?
+          Cloud computing is a technology that enables on-demand access to
+          computing resources, such as storage, processing power, and
+          applications, over the internet. It allows users to scale resources
+          dynamically, reducing the need for physical infrastructure.
+          {/* This
+          flexible and cost-effective model is widely used for data storage,
+          processing, and software delivery. */}
         </div>
         <div className="col-start-3  row-span-2">
           <Image
-            src={src}
+            src={webdev}
             priority={false}
-            alt="cloud computing"
+            alt="Web Developemnt"
             style={{ width: "200px", height: "auto", borderRadius: "30px" }}
           ></Image>
         </div>
-        <div className="col-start-1 col-span-2 row-start-3 row-span-2 text-right">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          provident explicabo, praesentium quos cum dicta et provident
-          explicabo, praesentium quos cum dicta et minima numquam ?
+        <div className="col-start-1 col-span-2 row-start-3 row-span-2 text-justify">
+          Web development involves creating and maintaining websites or web
+          applications. It encompasses front-end development for user interface
+          and experience, back-end development for server-side logic, and
+          database management.
+          {/* Web developers use languages like HTML, CSS,
+          JavaScript, and frameworks such as React or Django to build dynamic
+          and responsive online platforms. */}
         </div>
         <div className="col-start-1 row-span-2 ">
           <Image
-            src={src}
+            src={android}
             priority={false}
             alt="cloud computing"
-            style={{ width: "200px", height: "auto", borderRadius: "30px" }}
+            style={{ width: "160px", height: "auto", borderRadius: "30px" }}
           ></Image>
         </div>
-        <div className="col-start-2 col-span-2 row-start-5 row-span-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          provident explicabo, praesentium quos cum dicta et minima numquam
-          molestias ?
+        <div className="col-start-2 col-span-2 row-start-5 row-span-2 text-justify">
+          Android development involves creating mobile applications for Android
+          devices using Java or Kotlin programming languages. Developers design
+          user interfaces, implement functionality, and utilize Android SDK
+          tools.
+          {/* They address various device specifications and ensure
+          compatibility across a diverse range of smartphones and tablets,
+          leveraging the Android operating system for app deployment. */}
         </div>
       </div>
     </div>

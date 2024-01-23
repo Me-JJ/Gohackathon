@@ -13,6 +13,7 @@ import Jobs from "../components/home_page/jobs";
 import About from "../components/home_page/about";
 import { NavbarWithMegaMenu as Navbar } from "../components/home_page/navbar";
 import Footer from "../components/home_page/footer";
+import { Slide_4p } from "../components/home_page/slide_4p";
 export default function Home() {
   return (
     <>
@@ -22,7 +23,8 @@ export default function Home() {
         <Announcements />
         <Popularskills />
       </div>
-      <Four_p_program />
+      {/* <Four_p_program /> */}
+      <Slide_4p />
       <Empower />
       <div className="flex justify-evenly">
         <Examine />
