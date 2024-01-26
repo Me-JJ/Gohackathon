@@ -9,7 +9,7 @@ export default function Popularskills() {
   return (
     <div
       className="py-3 px-5 rounded-[30px] bg-gradient-to-tr from-lime-100 to-cyan-100
-      ms-2"
+      ms-2 basic-3/4"
     >
       <div className="text-center">
         <div className="flex justify-center items-center">

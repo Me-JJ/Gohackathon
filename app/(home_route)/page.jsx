@@ -14,14 +14,21 @@ import About from "../components/home_page/about";
 import { NavbarWithMegaMenu as Navbar } from "../components/home_page/navbar";
 import Footer from "../components/home_page/footer";
 import { Slide_4p } from "../components/home_page/slide_4p";
+import Announce from "../components/home_page/announce";
+import Image from "next/image";
+import img from "../../public/announce.png";
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      <div className="flex justify-around">
-        <Announcements />
-        <Popularskills />
+      <div className="flex justify-around items-center ">
+        {/* <Announcements /> */}
+        <Announce />
+        {/* <Popularskills /> */}
+        <div>
+          <Image src={img} alt="announcement" priority={false} />
+        </div>
       </div>
       {/* <Four_p_program /> */}
       <Slide_4p />
