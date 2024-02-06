@@ -9,7 +9,7 @@ import uiux from "../../../public/uiux.png";
 import tech from "../../../public/techassist.png";
 import ecommerce from "../../../public/ecommerce.png";
 
-export default function Empower() {
+export default function Empowering() {
   return (
     <div
       className="p-3  rounded-[30px]

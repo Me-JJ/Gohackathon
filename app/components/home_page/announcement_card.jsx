@@ -11,7 +11,7 @@ export function Announce_Card() {
   return (
     <Card
       shadow={false}
-      className="relative grid h-[25rem] sm:h-[30rem] md:h-[38rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
+      className="hover:cursor-pointer relative grid h-[25rem] sm:h-[30rem] md:h-[38rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
     >
       <CardHeader
         floated={false}
