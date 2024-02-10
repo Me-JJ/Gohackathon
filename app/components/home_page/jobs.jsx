@@ -3,17 +3,13 @@ import React from "react";
 import img from "../../../public/job.png";
 export default function Jobs() {
   return (
-    <div
-      className="ms-2 p-2 rounded-[30px] bg-gradient-to-br from-cyan-200 to-lime-100 w-1/2 mt-5
-    flex flex-col items-center"
-    >
-      <h1 className="text-2xl font-medium ">Jobs</h1>
-      <Image
-        src={img}
-        style={{ width: "400px", height: "auto" }}
-        alt="Training"
-        priority={false}
-      />
+    <div className="my-40 me-10">
+      <h1
+        className="text-2xl sm:text-4xl md:text-6xl lg:text-8xl font-extrabold
+       hover:scale-105 transition cursor-pointer"
+      >
+        Jobs
+      </h1>
     </div>
   );
 }
